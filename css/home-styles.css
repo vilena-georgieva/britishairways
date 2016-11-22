@@ -1,0 +1,697 @@
+	/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	font-family: Arial, sans-serif, verdana;
+	font-size: 16px;
+}
+table, caption, tbody, tfoot, thead, tr, th, td,{
+   margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: Arial, sans-serif, verdana;
+    font-size: 16px; 
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  }
+  .stBadge, .gh-w {
+ min-width: 180px !important;
+}
+.stBadge img {
+ max-width: 100% !important;
+ width: auto !important;
+}
+.whiter-rcp, #glbfooter {
+  margin: 0 auto;
+  max-width: 1900px;
+  /*border: 0;*/
+    margin-top: 20px;
+    -webkit-box-shadow: -1px 2px 11px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 2px 11px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px 2px 11px 0px rgba(0,0,0,0.5);
+}
+#body > div.pagewidth > div > div > div > table.tb_v4bc > tbody > tr > td:nth-child(2) > div > a:nth-child(3),#body > div.pagewidth > div > div > div > table.tb_v4bc > tbody > tr > td:nth-child(2) > div > a:nth-child(1),.stBadge-text,.mbg-nw,.mbg-l,.stBadge-text,#storercp_mide > div > div > table > tbody > tr:nth-child(3) > td:nth-child(1) > a,#storercp_mide > div > div > table > tbody > tr:nth-child(1) > td:nth-child(2) > a,#v4-127{
+  font-size: 14px;
+}
+.whiter-rcp .whiter-mid {
+  margin-top: 16px;
+}
+.whiter-rcp .whiter-s_nf, .whiter-rcp .whiter-s_nf .whiter-w {
+  background: none!important;
+}
+.stBadge-midContent td {
+  padding-left: 0px!important;
+}
+/*---------------- header ----------------*/
+ header{
+ 	margin-top: 1.25em;
+ }
+    .wrapper{
+    	    display: block;
+            overflow: visible;
+            width: 100%;
+            max-width: 1240px;
+            margin: 0 auto;
+            background-color: #fff;
+         
+    }
+	.main-banner{
+		background: url(../images/banner.jpg);
+		overflow: hidden;
+		min-height: 818px;
+		width: 100%;
+		margin-top: 2em;
+		  position: relative;
+		  max-width: 1920px;
+		  opacity: 0;
+	}
+     .main-banner-info a{
+    color: #fff !important;
+    text-decoration: none;
+ }
+ .main-banner-info a:hover{
+    text-decoration: underline;
+ }
+
+	div.wrapper > header > ul{
+		    float: right;
+    width: 66%;
+    padding-top: 2.4em;
+	}
+	div.wrapper > header > ul li{
+    float: left;
+    list-style-type: none;
+    margin-left: 1.375em;
+	}
+	div.wrapper > header > ul li a{
+    text-decoration: none !important;
+    color: #0054a6 !important;
+    text-transform: uppercase !important;
+    font-size: 16px !important;
+    font-weight: normal !important;
+	}
+	 div.wrapper.clearfix > header > div > a > img{
+     width: 100%;
+    }
+	.logo{
+		float: left;
+		width: 28%;
+		overflow: visible;
+	}
+
+
+   div.main-banner > div > section {
+     background-color: rgba(0,0,0,0.6);
+     max-width: 522px;
+     position: absolute;
+     top: 0;
+     width: 100%;
+     opacity: 0;
+   }
+     div.main-banner > div > section > div{
+
+     	margin:2.625em;
+     }
+   div.main-banner > div > section > div > ul{
+   	margin-top: 1em;
+   }
+   div.main-banner > div > section > div > h1, div.main-banner > div > section > div > h2, div.main-banner > div > section > div > p, div.main-banner > div > section > div > ul li{
+   	color: #fff;
+   }
+   div.main-banner > div > section > div > h1{
+   	font-size: 2.0625em;
+   	text-transform: uppercase;
+   	line-height: 1.2em;
+    padding-bottom: 0.4em;
+   }
+    div.main-banner > div > section > div > h2{
+   	font-size: 1.3em;
+   	line-height: 1.3em;
+   	margin-bottom: 10px;
+   }
+    div.main-banner > div > section > div > p, div.main-banner > div > section > div>  ul > li  
+    {
+    	line-height: 1.5em;
+        list-style-type: none;
+    }
+   
+
+    /*---------------- gallery ----------------*/
+    div.gallery > li{
+    	list-style-type: none;
+    	float: right;
+    	width: 25%;
+    }
+    .gallery{
+        margin: 35px auto;
+    }
+    .fancybox-buttons {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    z-index: 2;
+}
+.fancybox-buttons img.thumb-img {
+    -webkit-transition: -webkit-transform 0.15s ease 0s;
+    -moz-transition: -moz-transform 0.15s ease 0s;
+    -o-transition: -o-transform 0.15s ease 0s;
+    transition: transform 0.15s ease 0s;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+}
+.gallery .fancybox-buttons {
+    border: 5px solid #fff;
+    border-radius: 114px;
+    display: inline-block;
+    -webkit-box-shadow: 15px 13px 40px -10px rgba(0, 0, 0, 0.47);
+    -moz-box-shadow: 15px 13px 40px -10px rgba(0, 0, 0, 0.47);
+    box-shadow: 15px 13px 40px -10px rgba(0, 0, 0, 0.47);
+}
+.demo-gallery-poster {
+    background-color: rgba(0, 0, 0, 0.1);
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    -webkit-transition: background-color 0.15s ease 0s;
+    -o-transition: background-color 0.15s ease 0s;
+    transition: background-color 0.15s ease 0s;
+    z-index: 1;
+}
+.demo-gallery-poster > img {
+    left: 50%;
+    margin-left: -10px;
+    margin-top: -10px;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    border: none;
+    -webkit-transition: opacity 0.3s ease 0s;
+    -o-transition: opacity 0.3s ease 0s;
+    transition: opacity 0.3s ease 0s;
+}
+.fancybox-buttons:hover .demo-gallery-poster > img {
+    opacity: 1;
+}
+.fancybox-buttons:hover .thumb-img {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(1.1, 1.1, 1.1);
+}
+.fancybox-buttons:hover .demo-gallery-poster {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+ div.gallery.clearfix > li > a > img{
+    width: 100%;
+    max-width: 288px;
+ }
+
+
+/* --------- info section---------  */
+.highlight{
+    color: #0054a6;
+    font-size: 1em;
+    font-weight: bold;
+}
+.company-logo{
+	    float: left;
+    width: 33%;
+}
+ .companies-info section > article{
+ 	  float: right;
+ 	  width: 64%;
+ }
+ div.companies-info > section div > img {
+ 	width: 100%;
+ }
+
+div.companies-info > section article > img{
+	width: 100%;
+}
+div.companies-info > section > article > h3, .full-width  h3{
+font-size: 2.5em;
+text-transform: uppercase;
+color: #000;
+}
+div.companies-info > section > article > p{
+	font-size: 0.875em;
+	color: #000;
+	line-height: 1.8em;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+#companies-info > section:nth-child(1) > article > p:nth-child(3){
+    padding-top: 0px !important;
+    padding-bottom: 25px;
+}
+.links ,section.left.clearfix > article > p> a{
+	color: #0054a6 !important;
+	text-decoration: none !important;
+	font-weight: bold !important;
+}
+div.companies-info a:hover{
+	text-decoration: underline;
+}
+div.companies-info > section > div > img{
+	padding-bottom: 20px;
+}
+.article1,.article2,.article3,.article4,.article5,.article6{
+	opacity: 0;
+}
+.c-logo1,.c-logo2,.c-logo3{
+	opacity: 0;
+}
+#companies-info > section> article > a {
+	font-size: 0.875em;
+	text-decoration: underline;
+	line-height: 1.8em;
+}
+#companies-info{
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+.background-image{
+        margin: 0px;
+    padding: 0px;
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    background-image: url(../images/page-bg.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+ div.background-image > div > div > section{
+    margin-bottom: 50px;
+ }
+ .companies-info{
+    width: 100%;
+    padding: 0 10px;
+ }
+
+/* ~~~~~~~~~~ mardi gras info ~~~~~~~~~~  */
+.mardi-info{
+    opacity: 0;
+}
+.mardi-info li{
+    list-style-type: none;
+}
+.mardi-info .fancybox-buttons{
+border: 5px solid #fff;
+  -webkit-box-shadow: 15px 13px 40px -10px rgba(0, 0, 0, 0.47);
+    -moz-box-shadow: 15px 13px 40px -10px rgba(0, 0, 0, 0.47);
+    box-shadow: 15px 13px 40px -10px rgba(0, 0, 0, 0.47);
+   
+    margin-bottom: 3%;
+}
+section.left{
+width: 49%;
+ float: left;
+}
+section.right {
+width: 49%;
+ float: right;
+ margin-top: 25px;
+}
+
+
+section.left > div.new-o-logo > img{
+    width: 100%;
+    max-width: 100px;
+}
+ section.left > span h2{
+color: #3b53a3;
+font-size: 1.75em;
+display: inline;
+ }
+  div.new-o-logo{
+    display: inline;
+    margin-right: 7%;
+    width: 100%;
+    max-width: 324px;
+  }
+section.left.clearfix > article > p{
+    margin-top: 17px;
+    line-height: 23px;
+}
+.video{
+    padding: 13px 0;
+    width: 95%;
+}
+section.right.clearfix > li > a > img, section.left.clearfix > div.clearfix > li > a > img{
+    width: 100%;
+    max-width: 288px;
+}
+ section.right.clearfix > li:nth-child(1) > a > img{
+    width: 100%;
+    max-width: 598px !important;
+ }
+section.right.clearfix > li:nth-child(1) > a{
+    width: 95%;
+    max-width: 589px;
+}
+ section.right.clearfix > li> a,section.left.clearfix > div.clearfix > li > a {
+    width: 46.56%;
+    max-width: 288px;
+ }
+
+/* ~~~~~~~~~~ mardi gras info end ~~~~~~~~~~  */
+
+/* ~~~~~~~~~~~~~~~~~~~~ Hotel Info ~~~~~~~~~~~~~~~ */
+.hottel-info{
+    position: relative;
+    min-height: 650px;
+    width: 30%;
+    float: left;
+    background-color: #fff;
+        margin: 3% 1.65%;
+        border:1px solid #d3d3d3;
+}
+div.full-width.clearfix > div > article > div > div > a > img{
+    width: 100%;
+}
+div.full-width.clearfix > div > article > div> div{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 320px;
+    padding: 25px 0;
+
+}
+.title{
+    color: #0054a6 !important;
+    font-weight: bold;
+    margin: 15px 0;
+}
+.board-basis{
+    border-top: 1px solid #d3d3d3;
+}
+.full-width > div > article > div >div > a{
+    text-decoration: none;
+
+}
+.rating-stars{
+    margin: 15px 0;
+    display: block;
+}
+.full-width > div > article > div >div > a > p, .board-basis p{
+    color: #636363;
+    font-size: 0.875em;
+    margin-top: 15px;
+    
+
+}
+.full-width > div > article > div >div > a > div > p > span{
+    color: #0054a6 !important;
+    font-size: 1em;
+}
+.button{
+    background:url(../images/lable-btn1.png) no-repeat;
+    padding: 23px 53px;
+    position: absolute;
+    font-weight: bold;
+    font-size: 0.75em;
+    left: -14px;
+    bottom: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.full-width {
+    margin: 40px 0;
+    max-width: 1920px;
+    width: 100%;
+    background-color: #f0f0f0;
+}
+div.full-width.clearfix > h3{
+    background-color: #fff;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.line-up{
+    line-height: 20px;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~ Hotel Info end ~~~~~~~~~~~~~~~ */
+
+/* ~~~~~~~~~~~~~~~~~~~~ footer ~~~~~~~~~~~~~~~ */
+
+footer.clearfix{
+    background-color: #000 !important;
+}
+footer .wrapper{
+    background-color: #000 !important;
+}
+footer ul{
+        width: 100%;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+footer ul li{
+    list-style-type: none;
+
+}
+footer ul li a{
+    text-decoration: none !important;
+    color: #fff !important;
+    float: left;
+     font-size: 14px;
+     font-weight: normal !important;
+     margin: 14px 30px;
+     display: block;
+}
+.company-logo-footer{
+    width: 100%;
+    max-width: 88px;
+    margin: 20px auto;
+
+}
+.company-logo-footer img{
+    margin:16px;
+}
+div.background-image > div{
+    padding-bottom: 20px;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~ footer end ~~~~~~~~~~~~~~~ */
+
+/* ~~~~~~~~~~~~~~~~~~~~ responsive ~~~~~~~~~~~~~~~ */
+@media screen and (max-width: 1280px){
+  div.wrapper > header > ul li a{
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+    div.wrapper > header > ul{
+    padding-top: 0;
+
+  }
+  .mardi-info{
+    padding: 20px;
+  }
+}
+@media screen and (max-width: 1220px){
+section.left.clearfix > article > p{
+    font-size: 0.875em;
+}
+div.full-width.clearfix > div > article > div> div{
+    padding-left:  20px;
+    padding-right:  20px;
+}
+div.companies-info > section > article > h3, .full-width  h3{
+    font-size: 1.8em;
+}
+}
+@media screen and (max-width: 1020px){
+div.gallery > li{
+    margin-right: 0.4em;
+    width: 24%;
+
+}
+
+div.gallery > li:last-child{
+    margin-right: 0;
+}
+section.right,section.left{
+    float: none;display: block;width: 100%;max-width: 552px;margin:0 auto;
+}
+div.companies-info > section > article > h3, .full-width  h3{
+    font-size: 1.5em;
+}
+}
+@media screen and (max-width: 980px){
+.hottel-info{
+    min-height: 680px;
+}
+}
+@media screen and (max-width: 720px){
+
+  div.wrapper > header > ul li a{
+    display: inline-block;
+    font-size: 0.8em;
+   
+  }
+  .logo{
+    width: 34%;
+  }
+  div.gallery > li{
+    width: 44%;
+    margin: 10px;
+  }
+  .hottel-info{
+    min-height: 730px;
+  }
+}
+@media screen and (max-width: 630px){
+  .hottel-info{
+    float: none;
+    display: block;
+    width:90%;
+    margin: 20px auto;
+    min-height: 650px;
+   }
+}
+@media screen and (max-width: 610px){
+   div.wrapper > header > ul,.logo{
+    float: none;
+    width: 100%;
+   }
+   .main-banner{
+    margin-top: 0;
+   }
+   .logo{
+   padding: 0 20px;
+   }
+   div.wrapper > header > ul{
+    margin-top: 30px;
+   }
+   .company-logo,.companies-info section > article{
+  float: none;
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+   }
+    .company-logo{
+        float: none;
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+    }
+    div.companies-info > section > article > h3, .full-width  h3{
+        font-size: 1.2em;
+    }
+    #companies-info > section > div > img:nth-child(1){
+            padding-top: 10px;
+    padding-bottom: 0;
+    }
+   #companies-info > section > div > img:nth-child(1),#companies-info > section > div > img:nth-child(2){
+        padding-bottom: 40px;
+    }
+    #companies-info > section > div > img{
+     float: left;
+     width: 49%;
+    }
+    div.full-width.clearfix > div{
+        background-color: transparent;
+        padding-bottom: 20px;
+    }
+   div.background-image > div > div > section:nth-child(1) > article > h3, div.background-image > div > div > section:nth-child(2) > article > h3{
+    display: none;
+   }
+   div.main-banner > div > section > div > p, div.main-banner > div > section > div>  ul > li{
+    font-size: 1em !important;
+   }
+ div.main-banner > div > section > div > h1{
+    font-size: 1.5em;
+   }
+  
+}
+@media screen and (max-width: 550px){
+ section.left > span h2{
+    display: block;
+    margin-top: 20px;
+ }
+  div.main-banner > div > section > div > h2{
+    font-size: 1em !important;
+ }
+  div.main-banner > div > section > div > p, div.main-banner > div > section > div>  ul > li{
+    font-size: 0.9em !important;
+ }
+
+
+}
+
+@media screen and (max-width: 430px){
+ div.main-banner > div > section{
+    top:0;
+   }
+   div.main-banner > div > section > div > p, div.main-banner > div > section > div>  ul > li{
+    line-height: 1.3em !important;
+   }
+}
+@media screen and (max-width: 380px){
+div.main-banner > div > section > div{
+    margin: 0.8em;
+}
+}
+@media screen and (max-width: 340px){
+div.gallery > li{
+    margin: 8px;
+}
+
+}
